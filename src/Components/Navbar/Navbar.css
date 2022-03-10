@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    font-size: 16px;
+    margin: 0;
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.823);
+}
+
+li:hover{
+    background-color: skyblue;
+}
+
+body{
+    background-image: url('resources/bg2.jpg');
+    background-size: cover;
+}

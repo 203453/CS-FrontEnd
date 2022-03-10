@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register'
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Register/> */}
+     {/* <Login/> */}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
